@@ -1,0 +1,30 @@
+{
+  "name": "capacitor-app",
+  "version": "1.0.0",
+  "description": "An Amazing Capacitor App",
+  "keywords": [
+    "capacitor",
+    "mobile"
+  ],
+  "scripts": {
+    "start": "parcel game/index.html --dist-dir www",
+    "typecheck": "tsc -p . --noEmit",
+    "copy": "npx cap copy android",
+    "build": "parcel build game/index.html --dist-dir www && npm run copy"
+  },
+  "dependencies": {
+    "@capacitor/android": "^3.4.1",
+    "@capacitor/camera": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/splash-screen": "latest",
+    "excalibur": "0.25.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest",
+    "@parcel/packager-raw-url": "^2.3.2",
+    "@parcel/transformer-webmanifest": "^2.3.2",
+    "parcel": "2.3.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

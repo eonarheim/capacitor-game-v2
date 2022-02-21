@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Platformer</string>
+    <string name="title_activity_main">Platformer</string>
+    <string name="package_name">com.excalibur.platformer</string>
+    <string name="custom_url_scheme">com.excalibur.platformer</string>
+</resources>

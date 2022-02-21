@@ -1,0 +1,11 @@
+{
+	"appId": "com.excalibur.platformer",
+	"appName": "Platformer",
+	"bundledWebRuntime": true,
+	"webDir": "www",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	}
+}
